@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">AE3PT evidence and binary gate flow</title>
+  <desc id="desc">A proposal advances through implementation, verification, calibration, physical validation, review, and release; any failure returns to corrective action.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L0 6L9 3z" fill="#234e61"/></marker><style>.n{fill:#eef7f5;stroke:#234e61;stroke-width:2}.g{fill:#fff0c2;stroke:#9b5b00;stroke-width:2}.f{fill:#fde7e7;stroke:#9b2c2c;stroke-width:2}.t{font:600 16px sans-serif;fill:#183642}.s{font:13px sans-serif;fill:#35535e}.l{stroke:#234e61;stroke-width:3;fill:none;marker-end:url(#a)}</style></defs>
+  <text x="600" y="38" text-anchor="middle" class="t">No evidence class may be skipped</text>
+  <g transform="translate(30 90)"><rect class="n" width="150" height="72" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Intent</text><text x="75" y="53" text-anchor="middle" class="s">requirement + method</text></g>
+  <g transform="translate(205 90)"><rect class="n" width="150" height="72" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Source</text><text x="75" y="53" text-anchor="middle" class="s">research + standard</text></g>
+  <g transform="translate(380 90)"><rect class="n" width="150" height="72" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Implement</text><text x="75" y="53" text-anchor="middle" class="s">code + process</text></g>
+  <g transform="translate(555 90)"><rect class="n" width="150" height="72" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Verify</text><text x="75" y="53" text-anchor="middle" class="s">analytic + numerical</text></g>
+  <g transform="translate(730 90)"><rect class="n" width="150" height="72" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Calibrate</text><text x="75" y="53" text-anchor="middle" class="s">coupon + residuals</text></g>
+  <g transform="translate(905 90)"><rect class="n" width="150" height="72" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Validate</text><text x="75" y="53" text-anchor="middle" class="s">independent hardware</text></g>
+  <path class="l" d="M180 126H205"/><path class="l" d="M355 126H380"/><path class="l" d="M530 126H555"/><path class="l" d="M705 126H730"/><path class="l" d="M880 126H905"/>
+  <g transform="translate(450 235)"><rect class="g" width="300" height="90" rx="16"/><text x="150" y="36" text-anchor="middle" class="t">Binary Gate Review</text><text x="150" y="62" text-anchor="middle" class="s">exact artifacts + independent approval</text></g>
+  <path class="l" d="M980 162C980 215 750 215 750 265"/>
+  <g transform="translate(760 385)"><rect class="n" width="240" height="72" rx="12"/><text x="120" y="31" text-anchor="middle" class="t">PASS → Promote</text><text x="120" y="53" text-anchor="middle" class="s">baseline or release</text></g>
+  <g transform="translate(200 385)"><rect class="f" width="240" height="72" rx="12"/><text x="120" y="31" text-anchor="middle" class="t">FAIL → Correct</text><text x="120" y="53" text-anchor="middle" class="s">preserve evidence, rerun dependencies</text></g>
+  <path class="l" d="M675 325C700 370 800 350 850 385"/><path class="l" d="M525 325C500 370 400 350 350 385"/>
+  <path class="l" d="M200 421C80 421 80 126 205 126"/>
+</svg>

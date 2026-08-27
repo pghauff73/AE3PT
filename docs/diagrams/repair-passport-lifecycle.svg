@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">AE3PT repair and passport lifecycle</title>
+  <desc id="desc">A component moves from manufacture through operation, damage, inspection, repair, requalification, reuse, and recovery while its passport records immutable events.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L0 6L9 3z" fill="#234e61"/></marker><style>.n{fill:#edf7f5;stroke:#234e61;stroke-width:2}.r{fill:#fff0c4;stroke:#a45d00;stroke-width:2}.t{font:600 16px sans-serif;fill:#173846}.s{font:13px sans-serif;fill:#355966}.l{stroke:#234e61;stroke-width:3;fill:none;marker-end:url(#a)}</style></defs>
+  <text x="600" y="38" text-anchor="middle" class="t">Every transition creates a new lifecycle state and passport event</text>
+  <g transform="translate(80 90)"><rect class="n" width="180" height="70" rx="12"/><text x="90" y="31" text-anchor="middle" class="t">Manufactured</text><text x="90" y="52" text-anchor="middle" class="s">as-built + qualified</text></g>
+  <g transform="translate(370 90)"><rect class="n" width="180" height="70" rx="12"/><text x="90" y="31" text-anchor="middle" class="t">Operating</text><text x="90" y="52" text-anchor="middle" class="s">mission history</text></g>
+  <g transform="translate(660 90)"><rect class="r" width="180" height="70" rx="12"/><text x="90" y="31" text-anchor="middle" class="t">Damaged</text><text x="90" y="52" text-anchor="middle" class="s">mechanism + uncertainty</text></g>
+  <g transform="translate(950 90)"><rect class="n" width="180" height="70" rx="12"/><text x="90" y="31" text-anchor="middle" class="t">Inspected</text><text x="90" y="52" text-anchor="middle" class="s">measured vs inferred</text></g>
+  <g transform="translate(950 330)"><rect class="r" width="180" height="70" rx="12"/><text x="90" y="31" text-anchor="middle" class="t">Repair / Replace</text><text x="90" y="52" text-anchor="middle" class="s">frozen traveler</text></g>
+  <g transform="translate(660 330)"><rect class="n" width="180" height="70" rx="12"/><text x="90" y="31" text-anchor="middle" class="t">Requalified</text><text x="90" y="52" text-anchor="middle" class="s">all constraints rerun</text></g>
+  <g transform="translate(370 330)"><rect class="n" width="180" height="70" rx="12"/><text x="90" y="31" text-anchor="middle" class="t">Second Life</text><text x="90" y="52" text-anchor="middle" class="s">new mission + grade</text></g>
+  <g transform="translate(80 330)"><rect class="n" width="180" height="70" rx="12"/><text x="90" y="31" text-anchor="middle" class="t">Recovery</text><text x="90" y="52" text-anchor="middle" class="s">reuse, remanufacture, recycle</text></g>
+  <path class="l" d="M260 125H370"/><path class="l" d="M550 125H660"/><path class="l" d="M840 125H950"/><path class="l" d="M1040 160V330"/><path class="l" d="M950 365H840"/><path class="l" d="M660 365H550"/><path class="l" d="M370 365H260"/>
+  <path class="l" d="M460 330C460 250 460 240 460 160"/>
+  <rect x="185" y="505" width="830" height="85" rx="18" fill="#f5f7fa" stroke="#657b84" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="600" y="540" text-anchor="middle" class="t">Passport ledger: identity · material · process · load history · inspection · repair · disposition</text>
+  <text x="600" y="567" text-anchor="middle" class="s">append-only, signed, selectively disclosed, linked across component ancestry</text>
+</svg>

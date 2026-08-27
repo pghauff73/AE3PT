@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">AE3PT demonstrator ladder</title>
+  <desc id="desc">Five demonstrators add manufacturing, repair, cooling, electromagnetic, and assembly complexity in sequence.</desc>
+  <defs><style>.t{font:600 17px sans-serif;fill:#173846}.s{font:14px sans-serif;fill:#355966}.step{stroke:#234e61;stroke-width:2}.gate{fill:#fff0c4;stroke:#a45d00;stroke-width:2}</style></defs>
+  <text x="600" y="40" text-anchor="middle" class="t">Physical complexity increases only after the previous gate passes</text>
+  <g transform="translate(70 500)"><rect class="step" width="200" height="100" rx="12" fill="#dceff0"/><text x="100" y="30" text-anchor="middle" class="t">D1 Busbar</text><text x="100" y="55" text-anchor="middle" class="s">topology + plating</text><text x="100" y="77" text-anchor="middle" class="s">electrical + thermal</text></g>
+  <g transform="translate(285 400)"><rect class="step" width="200" height="200" rx="12" fill="#c6e4e8"/><text x="100" y="35" text-anchor="middle" class="t">D2 Repairable</text><text x="100" y="65" text-anchor="middle" class="s">damage + inspection</text><text x="100" y="88" text-anchor="middle" class="s">replating + passport</text></g>
+  <g transform="translate(500 300)"><rect class="step" width="200" height="300" rx="12" fill="#9ed0d8"/><text x="100" y="38" text-anchor="middle" class="t">D3 Hollow</text><text x="100" y="68" text-anchor="middle" class="s">coolant + pressure</text><text x="100" y="91" text-anchor="middle" class="s">flow + fatigue</text></g>
+  <g transform="translate(715 190)"><rect class="step" width="200" height="410" rx="12" fill="#6eb5c4"/><text x="100" y="40" text-anchor="middle" class="t">D4 Winding</text><text x="100" y="70" text-anchor="middle" class="s">AC + EM + torque</text><text x="100" y="93" text-anchor="middle" class="s">insulation + vibration</text></g>
+  <g transform="translate(930 80)"><rect class="step" width="200" height="520" rx="12" fill="#37869e"/><text x="100" y="42" text-anchor="middle" class="t" fill="#fff">D5 Assembly</text><text x="100" y="72" text-anchor="middle" class="s" fill="#fff">interfaces + controls</text><text x="100" y="95" text-anchor="middle" class="s" fill="#fff">full lifecycle replay</text></g>
+  <g transform="translate(170 620)"><rect class="gate" width="120" height="38" rx="9"/><text x="60" y="25" text-anchor="middle" class="s">Gate D1</text></g>
+  <g transform="translate(385 620)"><rect class="gate" width="120" height="38" rx="9"/><text x="60" y="25" text-anchor="middle" class="s">Gate D2</text></g>
+  <g transform="translate(600 620)"><rect class="gate" width="120" height="38" rx="9"/><text x="60" y="25" text-anchor="middle" class="s">Gate D3</text></g>
+  <g transform="translate(815 620)"><rect class="gate" width="120" height="38" rx="9"/><text x="60" y="25" text-anchor="middle" class="s">Gate D4</text></g>
+  <g transform="translate(1030 620)"><rect class="gate" width="120" height="38" rx="9"/><text x="60" y="25" text-anchor="middle" class="s">Gate D5</text></g>
+</svg>

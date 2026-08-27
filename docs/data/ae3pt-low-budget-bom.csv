@@ -1,0 +1,51 @@
+phase,bom_id,subsystem,item,quantity,key_specification,build_or_acquire,extended_cost_usd,gate
+S1,ST-001,Printing,PETG or approved functional filament,2 kg,"Known supplier and batch; process-compatible",Buy,55,P1
+S1,ST-002,Printing,PLA practice filament,1 kg,"General-purpose coupon material",Buy,25,P1
+S1,ST-003,Printing,Spare brass nozzles,3,"Match printer diameter and thread",Buy,18,P1
+S1,ST-004,Printing,Build-surface consumables,1 set,"Compatible adhesive or sheet",Buy,20,P1
+S1,ST-005,Printing,Sample labels and marker,1 set,"Durable identification",Buy,12,P1
+S1,ST-006,Printing,Failed-print material reserve,1 allowance,"Replacement sample material",Reserve,25,P1
+S1,ST-007,Printing,Repair-mask and fixture material,1 allowance,"Printable and process-compatible",Buy,15,P1
+S2,ST-008,Electrical fixture,Certified 5 VDC supply,1,"3 A minimum; current limited or protected",Buy,35,P2
+S2,ST-009,Electrical fixture,2.5 A fuse holders and fuses,1 set,"Low-voltage DC rated",Buy,18,P2
+S2,ST-010,Electrical fixture,Main power switch,1,"5 A low-voltage DC minimum",Buy,12,P2
+S2,ST-011,Electrical fixture,10 ohm load resistors,2,"10 W minimum",Buy,12,P2
+S2,ST-012,Electrical fixture,4.7 ohm load resistors,2,"10 W minimum",Buy,14,P2
+S2,ST-013,Electrical fixture,2.7 ohm load resistors,2,"15 W minimum",Buy,18,P2
+S2,ST-014,Electrical fixture,Load-selection switches,3,"Guarded or enclosed",Buy,20,P2
+S2,ST-015,Electrical fixture,0.1 ohm current shunts,2,"1 percent; 3 W minimum",Buy,16,P2
+S2,ST-016,Electrical fixture,Sample terminals and clamps,1 set,"Repeatable pressure; insulated covers",Buy,45,P2
+S2,ST-017,Electrical fixture,Wire ferrules and heat-shrink,1 set,"Suitable for 2 A continuous",Buy,25,P2
+S2,ST-018,Electrical fixture,Enclosure and printed hot-part guard,1 set,"Non-conductive enclosure; guarded resistors",Build,20,P2
+S3,ST-019,Voltage-current logger,Arduino-compatible microcontrollers,2,"One working unit plus spare",Buy,35,P3
+S3,ST-020,Voltage-current logger,ADS1115 ADC modules,3,"16-bit; one spare",Buy,35,P3
+S3,ST-021,Voltage-current logger,Resistor and input-protection kit,1,"1 percent resistors and small-signal protection",Buy,20,P3
+S3,ST-022,Voltage-current logger,Solderless breadboards,2,"Full-size with labelled rails",Buy,20,P3
+S3,ST-023,Voltage-current logger,Stripboard or simple PCB materials,1 set,"Transfer of verified circuit",Build,25,P3
+S3,ST-024,Voltage-current logger,Screw terminals and connectors,1 set,"Separate current and sense paths",Buy,25,P3
+S3,ST-025,Voltage-current logger,Plastic instrument enclosure,1,"Strain relief and clear labels",Buy,20,P3
+S3,ST-026,Voltage-current logger,USB cables and serial allowance,1 set,"Data and low-voltage power",Buy,10,P3
+S4,ST-027,Temperature logger,DS18B20 digital temperature sensors,8,"Four channels plus spares",Buy,32,P4
+S4,ST-028,Temperature logger,Sensor cable and connectors,1 set,"Labelled and replaceable",Buy,18,P4
+S4,ST-029,Temperature logger,Attachment tape or approved adhesive,1 set,"Repeatable below 50 C",Buy,15,P4
+S4,ST-030,Temperature logger,Small controller enclosure,1,"Labelled channels",Buy,20,P4
+S4,ST-031,Temperature logger,Warm-reference materials,1 set,"Safe reference below 50 C",Build,20,P4
+S5,ST-032,Inspection,Digital calliper,1,"0.01 mm display; checked against reference",Buy,35,P5
+S5,ST-033,Inspection,Digital scale,1,"0.01 g resolution",Buy,35,P5
+S5,ST-034,Inspection,USB microscope or camera stand,1,"Repeatable lighting and scale",Buy,45,P5
+S5,ST-035,Inspection,Resistance references,1 set,"Cover expected sample range",Buy,20,P5
+S5,ST-036,Inspection,Steel rule and photograph scale,1 set,"Metric",Buy,10,P5
+S6,ST-037,Supervised plating,Laboratory or service access,1 allowance,"Approved copper process and waste route",Service,180,P6
+S6,ST-038,Supervised plating,Approved conductive seed materials,1 allowance,"Compatible with polymer and process",Buy through lab,75,P6
+S6,ST-039,Supervised plating,Copper anode and consumables,1 allowance,"Laboratory-approved",Buy through lab,40,P6
+S6,ST-040,Supervised plating,Masks contacts and hanging fixtures,1 set,"Reusable where practical",Build,35,P6
+S6,ST-041,Supervised plating,Coupon and failed-run allowance,1,"Additional supervised time and material",Reserve,30,P6
+S7,ST-042,Safety,Impact-rated safety glasses,2,"Electrical and workshop use",Buy,20,G0
+S7,ST-043,Safety,Laboratory-approved chemical PPE,1 allowance,"Selected by risk assessment",Buy through lab,30,G0
+S7,ST-044,Safety,Containment trays,2,"Compatible with approved process",Buy,20,G0
+S7,ST-045,Safety,Labels and storage containers,1 set,"Sample and hazard identification",Buy,15,G0
+S7,ST-046,Safety,Spill and cleanup contribution,1,"Laboratory-approved materials",Buy through lab,20,G0
+S8,ST-047,Data and display,External storage,1,"256 GB or larger",Buy,25,G7
+S8,ST-048,Data and display,Sample storage boxes,2,"Labelled compartments",Buy,15,G4
+S8,ST-049,Data and display,Poster and demonstration printing,1 allowance,"Final review material",Service,25,G7
+S9,ST-050,Contingency,Failed-build and shipping reserve,1,"Protected reserve",Reserve,180,All

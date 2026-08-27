@@ -1,0 +1,30 @@
+phase,bom_id,category,item,quantity,key_specification,acquisition,unit_cost_usd,extended_cost_usd,cost_class,required_by_gate
+C1,CL-001,Electronics,Arduino-compatible microcontrollers,8,"Two per team",Buy,18,144,Reusable,G1
+C1,CL-002,Electronics,ADS1115 ADC modules,12,"Three per team",Buy,12,144,Reusable,G1
+C1,CL-003,Electronics,DS18B20 temperature sensors,32,"Eight per team",Buy,4,128,Reusable,G1
+C1,CL-004,Electronics,Certified 5 VDC supplies,4,"3 A minimum",Buy,35,140,Reusable,G1
+C1,CL-005,Electronics,Load resistor kits,4,"10; 4.7; and 2.7 ohm power resistors",Buy,45,180,Reusable,G1
+C1,CL-006,Electronics,Current shunt kits,8,"0.1 ohm; 1 percent; 3 W",Buy,8,64,Reusable,G1
+C1,CL-007,Electronics,Fuse switch terminal and wiring kits,4,"2.5 A protected",Buy,95,380,Reusable,G1
+C1,CL-008,Electronics,Instrument enclosures and guards,4,"Non-conductive and labelled",Build,50,200,Reusable,G1
+C1,CL-009,Electronics,Breadboard PCB and connector kits,4,"Prototype and verified transfer",Buy,75,300,Reusable,G1
+C2,CL-010,Printing,PETG functional filament,8 kg,"Known batch",Buy,27.5,220,Consumable,G3
+C2,CL-011,Printing,PLA practice filament,4 kg,"Coupon material",Buy,25,100,Consumable,G3
+C2,CL-012,Printing,Nozzle and build-surface kits,4,"Printer-compatible",Buy,40,160,Consumable,G3
+C2,CL-013,Printing,Failed-print and fixture material,1 allowance,"Four-team reserve",Reserve,170,170,Consumable,G3
+C3,CL-014,Inspection,Digital callipers,4,"0.01 mm display",Buy,35,140,Reusable,G4
+C3,CL-015,Inspection,Digital scales,2,"0.01 g resolution",Buy,35,70,Reusable,G4
+C3,CL-016,Inspection,Shared USB microscope,1,"Camera stand and scale",Buy,150,150,Reusable,G4
+C3,CL-017,Inspection,Trusted bench multimeter,1,"Reference comparison",Buy,300,300,Capital,G1
+C3,CL-018,Inspection,Resistance references,1 set,"Cover expected sample range",Buy,90,90,Reusable,G1
+C4,CL-019,Plating,Supervised laboratory or service access,1,"Four-team allowance",Service,600,600,Service,G4
+C4,CL-020,Plating,Approved conductive seed materials,1 allowance,"Process-compatible",Buy through lab,250,250,Consumable,G4
+C4,CL-021,Plating,Copper anode and process consumables,1 allowance,"Laboratory-approved",Buy through lab,150,150,Consumable,G4
+C4,CL-022,Plating,Masks contacts and fixtures,1 class set,"Reusable",Build,100,100,Reusable,G4
+C4,CL-023,Plating,Failed-run allowance,1,"Additional coupons and process time",Reserve,100,100,Consumable,G4
+C5,CL-024,Infrastructure,Shared printer maintenance,1 allowance,"Nozzles belts surfaces and service",Reserve,650,650,Reusable,G3
+C5,CL-025,Safety,Safety and containment package,1 class set,"PPE trays labels storage cleanup",Buy,350,350,Reusable,G0
+C5,CL-026,Teaching,Laboratory and teaching support,1 allowance,"Supervision preparation and review",Service,1200,1200,Service,All
+C5,CL-027,Data,Data storage and sample archive,1,"Shared storage and boxes",Buy,200,200,Reusable,G7
+C5,CL-028,Display,Posters and demonstration materials,1 allowance,"Four teams",Service,200,200,Consumable,G7
+C6,CL-029,Contingency,Failed-build and schedule reserve,1,"Protected cohort reserve",Reserve,820,820,Reserve,All

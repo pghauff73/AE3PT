@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1180" viewBox="0 0 1600 1180" role="img" aria-labelledby="title description">
+  <title id="title">AE3PT low-budget projected development and procurement timeline</title>
+  <desc id="description">A multi-coloured 60-month timeline from September 2026 through August 2031 showing software, constructed instruments, physical demonstrators, partner validation, funding releases, and gates LG0 through LG9.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426"/>
+      <stop offset="0.55" stop-color="#102746"/>
+      <stop offset="1" stop-color="#09172d"/>
+    </linearGradient>
+    <linearGradient id="headerGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#35d0ba" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#788bff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#ff6ba8" stop-opacity="0.17"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#020712" flood-opacity="0.55"/>
+    </filter>
+    <filter id="gateGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .ui { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .title { fill: #f5f8ff; font-size: 34px; font-weight: 750; letter-spacing: -0.6px; }
+      .subtitle { fill: #b7c5dc; font-size: 17px; }
+      .axis { fill: #9eb0cb; font-size: 13px; font-weight: 600; }
+      .year { fill: #e3eaf7; font-size: 14px; font-weight: 700; }
+      .rowLabel { fill: #eef4ff; font-size: 15px; font-weight: 700; }
+      .rowNote { fill: #9fb0c8; font-size: 12px; }
+      .barText { fill: #071426; font-size: 13px; font-weight: 750; }
+      .barTextLight { fill: #ffffff; font-size: 13px; font-weight: 750; }
+      .gateLabel { fill: #f7fbff; font-size: 11px; font-weight: 800; text-anchor: middle; }
+      .small { fill: #aab9cf; font-size: 11px; }
+      .legend { fill: #dce6f5; font-size: 12px; }
+      .releaseTitle { fill: #f4f8ff; font-size: 13px; font-weight: 750; }
+      .releaseText { fill: #aebdd2; font-size: 11px; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1180" rx="28" fill="url(#background)"/>
+  <rect x="38" y="34" width="1524" height="116" rx="22" fill="url(#headerGlow)" stroke="#334d73"/>
+  <text class="ui title" x="74" y="86">AE3PT Low-Budget Projected Timeline</text>
+  <text class="ui subtitle" x="74" y="119">Construct instruments and write the simulator first; purchase only narrow partner evidence at each gate.</text>
+  <rect x="1260" y="62" width="260" height="62" rx="14" fill="#0b1c34" stroke="#3b5a83"/>
+  <text class="ui year" x="1282" y="87">Projected program</text>
+  <text class="ui subtitle" x="1282" y="111">Sep 2026 – Aug 2031</text>
+
+  <!-- Chart frame -->
+  <rect x="38" y="174" width="1524" height="720" rx="20" fill="#0b1b31" stroke="#2b4569"/>
+  <rect x="330" y="204" width="1180" height="626" rx="12" fill="#081525" stroke="#253e60"/>
+
+  <!-- Alternating year bands -->
+  <rect x="330" y="204" width="236" height="626" fill="#102844" opacity="0.46"/>
+  <rect x="802" y="204" width="236" height="626" fill="#102844" opacity="0.46"/>
+  <rect x="1274" y="204" width="236" height="626" fill="#102844" opacity="0.46"/>
+
+  <!-- Axis grid: 60 months, 19.6667 px/month -->
+  <g stroke="#2b4262" stroke-width="1">
+    <line x1="330" y1="204" x2="330" y2="830"/>
+    <line x1="448" y1="204" x2="448" y2="830"/>
+    <line x1="566" y1="204" x2="566" y2="830"/>
+    <line x1="684" y1="204" x2="684" y2="830"/>
+    <line x1="802" y1="204" x2="802" y2="830"/>
+    <line x1="920" y1="204" x2="920" y2="830"/>
+    <line x1="1038" y1="204" x2="1038" y2="830"/>
+    <line x1="1156" y1="204" x2="1156" y2="830"/>
+    <line x1="1274" y1="204" x2="1274" y2="830"/>
+    <line x1="1392" y1="204" x2="1392" y2="830"/>
+    <line x1="1510" y1="204" x2="1510" y2="830"/>
+  </g>
+  <g stroke="#213754" stroke-width="1">
+    <line x1="330" y1="270" x2="1510" y2="270"/>
+    <line x1="330" y1="326" x2="1510" y2="326"/>
+    <line x1="330" y1="382" x2="1510" y2="382"/>
+    <line x1="330" y1="438" x2="1510" y2="438"/>
+    <line x1="330" y1="494" x2="1510" y2="494"/>
+    <line x1="330" y1="550" x2="1510" y2="550"/>
+    <line x1="330" y1="606" x2="1510" y2="606"/>
+    <line x1="330" y1="662" x2="1510" y2="662"/>
+    <line x1="330" y1="718" x2="1510" y2="718"/>
+    <line x1="330" y1="774" x2="1510" y2="774"/>
+    <line x1="330" y1="830" x2="1510" y2="830"/>
+  </g>
+
+  <!-- Axis labels -->
+  <g class="ui axis" text-anchor="middle">
+    <text x="330" y="194">M0</text><text x="448" y="194">M6</text><text x="566" y="194">M12</text>
+    <text x="684" y="194">M18</text><text x="802" y="194">M24</text><text x="920" y="194">M30</text>
+    <text x="1038" y="194">M36</text><text x="1156" y="194">M42</text><text x="1274" y="194">M48</text>
+    <text x="1392" y="194">M54</text><text x="1510" y="194">M60</text>
+  </g>
+  <g class="ui year" text-anchor="middle">
+    <text x="448" y="854">Year 1</text><text x="684" y="854">Year 2</text><text x="920" y="854">Year 3</text>
+    <text x="1156" y="854">Year 4</text><text x="1392" y="854">Year 5</text>
+  </g>
+
+  <!-- Row labels -->
+  <g class="ui">
+    <text class="rowLabel" x="64" y="247">Governance &amp; safety</text><text class="rowNote" x="64" y="265">scope, stop-work, partner boundaries</text>
+    <text class="rowLabel" x="64" y="303">Open simulator foundation</text><text class="rowNote" x="64" y="321">schemas, provenance, geometry, solvers</text>
+    <text class="rowLabel" x="64" y="359">Constructed instrument platform</text><text class="rowNote" x="64" y="377">ADC, controllers, isolation, calibration</text>
+    <text class="rowLabel" x="64" y="415">Reduced busbar design loop</text><text class="rowNote" x="64" y="433">graph search, electrical, thermal</text>
+    <text class="rowLabel" x="64" y="471">Coupon print &amp; plating</text><text class="rowNote" x="64" y="489">shared qualified chemistry facility</text>
+    <text class="rowLabel" x="64" y="527">D1 validated busbar</text><text class="rowNote" x="64" y="545">as-built resistance, thickness, hotspot</text>
+    <text class="rowLabel" x="64" y="583">D2 repair &amp; lifecycle</text><text class="rowNote" x="64" y="601">damage, inspect, replate, requalify</text>
+    <text class="rowLabel" x="64" y="639">D3 hollow conductor</text><text class="rowNote" x="64" y="657">flow, thermal, partner proof pressure</text>
+    <text class="rowLabel" x="64" y="695">D4 bounded winding</text><text class="rowNote" x="64" y="713">1–15 kW partner dynamometer</text>
+    <text class="rowLabel" x="64" y="751">D5 integrated assembly</text><text class="rowNote" x="64" y="769">passport, interfaces, degraded mission</text>
+    <text class="rowLabel" x="64" y="807">Independent release</text><text class="rowNote" x="64" y="825">100 kW partner points, replay, audit</text>
+  </g>
+
+  <!-- Bars -->
+  <g filter="url(#shadow)">
+    <rect x="330" y="222" width="79" height="31" rx="9" fill="#41d7c7"/>
+    <text class="ui barText" x="342" y="243">M0–4</text>
+
+    <rect x="330" y="278" width="472" height="31" rx="9" fill="#4f8cff"/>
+    <text class="ui barTextLight" x="344" y="299">S0–S3 foundation and open-source solver integration</text>
+
+    <rect x="369" y="334" width="197" height="31" rx="9" fill="#a47bff"/>
+    <text class="ui barTextLight" x="383" y="355">I1–I9 core build</text>
+
+    <rect x="409" y="390" width="393" height="31" rx="9" fill="#27c4a8"/>
+    <text class="ui barText" x="423" y="411">candidate generation + reduced electrothermal model</text>
+
+    <rect x="448" y="446" width="315" height="31" rx="9" fill="#ff9f43"/>
+    <text class="ui barText" x="462" y="467">coupons, seeding, plating calibration</text>
+
+    <rect x="566" y="502" width="275" height="31" rx="9" fill="#66d17a"/>
+    <text class="ui barText" x="580" y="523">D1 build + partner metrology</text>
+
+    <rect x="684" y="558" width="315" height="31" rx="9" fill="#ff6ba8"/>
+    <text class="ui barTextLight" x="698" y="579">D2 damage, repair, passport</text>
+
+    <rect x="763" y="614" width="314" height="31" rx="9" fill="#ffd166"/>
+    <text class="ui barText" x="777" y="635">D3 fluid + pressure evidence</text>
+
+    <rect x="881" y="670" width="354" height="31" rx="9" fill="#ff7657"/>
+    <text class="ui barTextLight" x="895" y="691">D4 winding + partner dynamometer</text>
+
+    <rect x="1077" y="726" width="315" height="31" rx="9" fill="#8c7bff"/>
+    <text class="ui barTextLight" x="1091" y="747">D5 assembly lifecycle proof</text>
+
+    <rect x="1274" y="782" width="236" height="31" rx="9" fill="#3db8ff"/>
+    <text class="ui barText" x="1288" y="803">external replay + preview</text>
+  </g>
+
+  <!-- Partner validation overlays -->
+  <g fill="none" stroke="#f5f8ff" stroke-width="2" stroke-dasharray="7 5" opacity="0.82">
+    <rect x="723" y="498" width="118" height="39" rx="11"/>
+    <rect x="940" y="610" width="137" height="39" rx="11"/>
+    <rect x="1116" y="666" width="119" height="39" rx="11"/>
+    <rect x="1372" y="778" width="138" height="39" rx="11"/>
+  </g>
+
+  <!-- Gate markers -->
+  <g filter="url(#gateGlow)">
+    <g transform="translate(369,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#41d7c7"/><text class="ui gateLabel" y="29">LG0</text><text class="ui small" y="45" text-anchor="middle">M2</text></g>
+    <g transform="translate(409,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#4f8cff"/><text class="ui gateLabel" y="29">LG1</text><text class="ui small" y="45" text-anchor="middle">M4</text></g>
+    <g transform="translate(487,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#a47bff"/><text class="ui gateLabel" y="29">LG2</text><text class="ui small" y="45" text-anchor="middle">M8</text></g>
+    <g transform="translate(566,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#ff9f43"/><text class="ui gateLabel" y="29">LG3</text><text class="ui small" y="45" text-anchor="middle">M12</text></g>
+    <g transform="translate(684,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#27c4a8"/><text class="ui gateLabel" y="29">LG4</text><text class="ui small" y="45" text-anchor="middle">M18</text></g>
+    <g transform="translate(841,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#66d17a"/><text class="ui gateLabel" y="29">LG5</text><text class="ui small" y="45" text-anchor="middle">M26</text></g>
+    <g transform="translate(999,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#ff6ba8"/><text class="ui gateLabel" y="29">LG6</text><text class="ui small" y="45" text-anchor="middle">M34</text></g>
+    <g transform="translate(1195,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#ff7657"/><text class="ui gateLabel" y="29">LG7</text><text class="ui small" y="45" text-anchor="middle">M44</text></g>
+    <g transform="translate(1392,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#8c7bff"/><text class="ui gateLabel" y="29">LG8</text><text class="ui small" y="45" text-anchor="middle">M54</text></g>
+    <g transform="translate(1510,875)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#3db8ff"/><text class="ui gateLabel" y="29">LG9</text><text class="ui small" y="45" text-anchor="middle">M60</text></g>
+  </g>
+
+  <!-- Funding releases -->
+  <rect x="38" y="934" width="1524" height="178" rx="20" fill="#0b1b31" stroke="#2b4569"/>
+  <text class="ui year" x="64" y="965">Gate-controlled funding releases</text>
+  <g class="ui">
+    <g transform="translate(64,986)">
+      <rect width="226" height="94" rx="14" fill="#102a46" stroke="#41d7c7"/>
+      <text class="releaseTitle" x="16" y="25">A · Digital foundation</text><text class="releaseText" x="16" y="47">M0–4 · cumulative ~$12k</text>
+      <text class="releaseText" x="16" y="67">Compute, backup, EDA, safety</text>
+    </g>
+    <g transform="translate(308,986)">
+      <rect width="226" height="94" rx="14" fill="#172447" stroke="#a47bff"/>
+      <text class="releaseTitle" x="16" y="25">B · Instrument core</text><text class="releaseText" x="16" y="47">M3–8 · cumulative ~$28k</text>
+      <text class="releaseText" x="16" y="67">ADCs, PCBs, isolation, calibration</text>
+    </g>
+    <g transform="translate(552,986)">
+      <rect width="226" height="94" rx="14" fill="#382536" stroke="#ff9f43"/>
+      <text class="releaseTitle" x="16" y="25">C · Coupon laboratory</text><text class="releaseText" x="16" y="47">M6–12 · cumulative ~$50k</text>
+      <text class="releaseText" x="16" y="67">Printing, plating access, I1/I2/I8</text>
+    </g>
+    <g transform="translate(796,986)">
+      <rect width="226" height="94" rx="14" fill="#173a35" stroke="#66d17a"/>
+      <text class="releaseTitle" x="16" y="25">D · Busbar &amp; fluid proof</text><text class="releaseText" x="16" y="47">M12–26 · cumulative ~$82k</text>
+      <text class="releaseText" x="16" y="67">SELV enclosure, loop, partner XRF/CT</text>
+    </g>
+    <g transform="translate(1040,986)">
+      <rect width="226" height="94" rx="14" fill="#3a222d" stroke="#ff7657"/>
+      <text class="releaseTitle" x="16" y="25">E · Repair &amp; winding</text><text class="releaseText" x="16" y="47">M24–44 · cumulative ~$130k</text>
+      <text class="releaseText" x="16" y="67">D2/D3, insulation, partner dyno</text>
+    </g>
+    <g transform="translate(1284,986)">
+      <rect width="226" height="94" rx="14" fill="#182f4d" stroke="#3db8ff"/>
+      <text class="releaseTitle" x="16" y="25">F · Integrated evidence</text><text class="releaseText" x="16" y="47">M44–60 · cumulative ~$185k</text>
+      <text class="releaseText" x="16" y="67">D5, partner high energy, audit</text>
+    </g>
+  </g>
+
+  <!-- Legend -->
+  <g class="ui legend">
+    <rect x="64" y="1134" width="18" height="10" rx="3" fill="#a47bff"/><text x="90" y="1144">constructed instruments</text>
+    <rect x="258" y="1134" width="18" height="10" rx="3" fill="#4f8cff"/><text x="284" y="1144">written software</text>
+    <rect x="420" y="1134" width="18" height="10" rx="3" fill="#66d17a"/><text x="446" y="1144">physical demonstrator</text>
+    <rect x="604" y="1129" width="76" height="20" rx="6" fill="none" stroke="#f5f8ff" stroke-width="2" stroke-dasharray="7 5"/><text x="690" y="1144">qualified partner evidence</text>
+    <path d="M919,1139 l9,-9 l9,9 l-9,9 z" fill="#ffd166"/><text x="946" y="1144">pass/fail gate</text>
+    <text x="1120" y="1144">Calendar is indicative; gate evidence controls progression.</text>
+  </g>
+</svg>

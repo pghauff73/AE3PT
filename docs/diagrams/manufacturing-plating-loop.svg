@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">AE3PT manufacturing and electroplating loop</title>
+  <desc id="desc">Nominal geometry is printed, cleaned, seeded, plated, measured, converted to an as-manufactured model, and either accepted or redesigned.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L0 6L9 3z" fill="#234e61"/></marker><style>.n{fill:#edf7f5;stroke:#234e61;stroke-width:2}.m{fill:#fff2ca;stroke:#a45d00;stroke-width:2}.t{font:600 16px sans-serif;fill:#173846}.s{font:13px sans-serif;fill:#355966}.l{stroke:#234e61;stroke-width:3;fill:none;marker-end:url(#a)}</style></defs>
+  <text x="600" y="40" text-anchor="middle" class="t">The manufactured topology is a measured state, not an assumption</text>
+  <g transform="translate(45 110)"><rect class="n" width="150" height="75" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Nominal Design</text><text x="75" y="54" text-anchor="middle" class="s">field + geometry</text></g>
+  <g transform="translate(245 110)"><rect class="n" width="150" height="75" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Print / Core</text><text x="75" y="54" text-anchor="middle" class="s">variation + supports</text></g>
+  <g transform="translate(445 110)"><rect class="n" width="150" height="75" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Clean / Seed</text><text x="75" y="54" text-anchor="middle" class="s">access + continuity</text></g>
+  <g transform="translate(645 110)"><rect class="n" width="150" height="75" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Electroplate</text><text x="75" y="54" text-anchor="middle" class="s">current + flow + time</text></g>
+  <g transform="translate(845 110)"><rect class="n" width="150" height="75" rx="12"/><text x="75" y="31" text-anchor="middle" class="t">Inspect</text><text x="75" y="54" text-anchor="middle" class="s">mass + thickness + defects</text></g>
+  <path class="l" d="M195 148H245"/><path class="l" d="M395 148H445"/><path class="l" d="M595 148H645"/><path class="l" d="M795 148H845"/>
+  <g transform="translate(450 285)"><rect class="m" width="300" height="90" rx="15"/><text x="150" y="36" text-anchor="middle" class="t">As-Manufactured State</text><text x="150" y="62" text-anchor="middle" class="s">measured geometry + uncertainty + passport</text></g>
+  <path class="l" d="M920 185C920 255 750 255 750 310"/>
+  <g transform="translate(150 455)"><rect class="n" width="250" height="78" rx="12"/><text x="125" y="33" text-anchor="middle" class="t">Re-simulate Performance</text><text x="125" y="56" text-anchor="middle" class="s">electrical, thermal, structural</text></g>
+  <g transform="translate(800 455)"><rect class="m" width="250" height="78" rx="12"/><text x="125" y="33" text-anchor="middle" class="t">Pass or Redesign</text><text x="125" y="56" text-anchor="middle" class="s">binary gate + corrective action</text></g>
+  <path class="l" d="M450 330C320 330 275 400 275 455"/><path class="l" d="M400 494H800"/>
+  <path class="l" d="M925 455C1080 400 1080 80 195 80C120 80 120 95 120 110"/>
+</svg>

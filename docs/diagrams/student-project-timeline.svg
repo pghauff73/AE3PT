@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="920" viewBox="0 0 1500 920" role="img" aria-labelledby="title description">
+  <title id="title">Adaptive Electroformed 3D Power Topology Lite 24-week first-year classroom timeline</title>
+  <desc id="description">A multi-coloured timeline for a five-volt, two-ampere student project covering explanation, calculation, measurement tools, simple software, printing, supervised plating, testing, repair, business comparison, and final presentation.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f7482"/>
+      <stop offset="0.55" stop-color="#3569b7"/>
+      <stop offset="1" stop-color="#6f49ad"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#17324d" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .ui{font-family:Inter,Segoe UI,Arial,sans-serif}.title{font-size:31px;font-weight:800;fill:#fff}.subtitle{font-size:16px;fill:#dceeff}.label{font-size:14px;font-weight:750;fill:#203a58}.small{font-size:11px;fill:#607896}.week{font-size:11px;font-weight:750;fill:#54708f;text-anchor:middle}.barLight{font-size:12px;font-weight:750;fill:#fff}.barDark{font-size:12px;font-weight:750;fill:#16324b}.gate{font-size:10px;font-weight:850;fill:#213b59;text-anchor:middle}.gateWeek{font-size:9px;fill:#6b8098;text-anchor:middle}.cardTitle{font-size:13px;font-weight:800;fill:#203a58}.cardText{font-size:10px;fill:#607896}.legend{font-size:10px;fill:#526c87}
+    </style>
+  </defs>
+  <rect width="1500" height="920" rx="26" fill="#edf3f9"/>
+  <rect x="34" y="30" width="1432" height="106" rx="22" fill="url(#header)"/>
+  <text class="ui title" x="70" y="75" font-size="27">Adaptive Electroformed 3D Power Topology Lite</text>
+  <text class="ui subtitle" x="70" y="106">AE3PT-Lite · 5 volts direct current · maximum 2 amperes · three designs · one repair · 24 weeks</text>
+  <rect x="1238" y="54" width="190" height="58" rx="14" fill="#18345c" opacity="0.94"/>
+  <text class="ui subtitle" x="1260" y="79">Course scale</text>
+  <text class="ui" x="1260" y="102" font-size="19" font-weight="800" fill="#fff">Two 12-week terms</text>
+
+  <rect x="34" y="158" width="1432" height="565" rx="21" fill="#fff" stroke="#c9d8e7"/>
+  <rect x="315" y="190" width="1110" height="448" rx="14" fill="#f6fafc" stroke="#d8e4ef"/>
+  <rect x="315" y="190" width="555" height="448" fill="#edf8f7" opacity="0.9"/>
+  <rect x="870" y="190" width="555" height="448" fill="#f3f0fc" opacity="0.9"/>
+
+  <g class="ui week">
+    <text x="338" y="181">W1</text><text x="430" y="181">W3</text><text x="523" y="181">W5</text><text x="615" y="181">W7</text>
+    <text x="708" y="181">W9</text><text x="800" y="181">W11</text><text x="893" y="181">W13</text><text x="985" y="181">W15</text>
+    <text x="1078" y="181">W17</text><text x="1170" y="181">W19</text><text x="1263" y="181">W21</text><text x="1355" y="181">W23</text><text x="1425" y="181">W24</text>
+  </g>
+  <g stroke="#d9e5ef" stroke-width="1">
+    <path d="M315 190V638M407.5 190V638M500 190V638M592.5 190V638M685 190V638M777.5 190V638M870 190V638M962.5 190V638M1055 190V638M1147.5 190V638M1240 190V638M1332.5 190V638M1425 190V638"/>
+    <path d="M315 246H1425M315 302H1425M315 358H1425M315 414H1425M315 470H1425M315 526H1425M315 582H1425"/>
+  </g>
+
+  <g class="ui">
+    <text class="label" x="60" y="220">Explain purpose and safety</text><text class="small" x="60" y="238">plain language, limits, risk, approvals</text>
+    <text class="label" x="60" y="276">Calculate and print coupons</text><text class="small" x="60" y="294">Ohm's law, dimensions, printer checks</text>
+    <text class="label" x="60" y="332">Build measurement tools</text><text class="small" x="60" y="350">current, voltage, temperature, stop rule</text>
+    <text class="label" x="60" y="388">Write simple software</text><text class="small" x="60" y="406">calculations, tests, data table, one report</text>
+    <text class="label" x="60" y="444">Freeze and print designs</text><text class="small" x="60" y="462">reference, material-saving, repair-ready</text>
+    <text class="label" x="60" y="500">Seed and plate</text><text class="small" x="60" y="518">coupons first, supervised copper process</text>
+    <text class="label" x="60" y="556">Test all nine samples</text><text class="small" x="60" y="574">0.5, 1.0, 1.8 amperes; maximum 50 degrees Celsius</text>
+    <text class="label" x="60" y="612">Damage, repair, explain value</text><text class="small" x="60" y="630">repair evidence, cost, presentation</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="315" y="207" width="93" height="30" rx="9" fill="#2ec5b6"/><text class="ui barDark" x="328" y="227">Weeks 1–2</text>
+    <rect x="408" y="263" width="139" height="30" rx="9" fill="#79d0c7"/><text class="ui barDark" x="422" y="283">Weeks 3–5</text>
+    <rect x="454" y="319" width="185" height="30" rx="9" fill="#8b67df"/><text class="ui barLight" x="469" y="339">Weeks 4–7</text>
+    <rect x="547" y="375" width="185" height="30" rx="9" fill="#4f8ff4"/><text class="ui barLight" x="562" y="395">Weeks 6–9</text>
+    <rect x="639" y="431" width="185" height="30" rx="9" fill="#32b5a2"/><text class="ui barDark" x="654" y="451">Weeks 8–11</text>
+    <rect x="778" y="487" width="185" height="30" rx="9" fill="#ff9b42"/><text class="ui barDark" x="793" y="507">Weeks 11–14</text>
+    <rect x="963" y="543" width="185" height="30" rx="9" fill="#64c978"/><text class="ui barDark" x="978" y="563">Weeks 15–18</text>
+    <rect x="1148" y="599" width="277" height="30" rx="9" fill="#ed5a93"/><text class="ui barLight" x="1163" y="619">Weeks 19–24 · repair and present</text>
+  </g>
+
+  <text class="ui label" x="487" y="683">Term 1 — Understand, calculate, build, and prepare</text>
+  <text class="ui label" x="1032" y="683">Term 2 — Manufacture, test, repair, and explain</text>
+
+  <g class="ui">
+    <g transform="translate(361,712)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#2ec5b6"/><text class="gate" y="28">G0</text><text class="gateWeek" y="44">W2</text></g>
+    <g transform="translate(639,712)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#8b67df"/><text class="gate" y="28">G1</text><text class="gateWeek" y="44">W7</text></g>
+    <g transform="translate(732,712)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#4f8ff4"/><text class="gate" y="28">G2</text><text class="gateWeek" y="44">W9</text></g>
+    <g transform="translate(824,712)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#32b5a2"/><text class="gate" y="28">G3</text><text class="gateWeek" y="44">W11</text></g>
+    <g transform="translate(963,712)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#ff9b42"/><text class="gate" y="28">G4</text><text class="gateWeek" y="44">W14</text></g>
+    <g transform="translate(1148,712)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#64c978"/><text class="gate" y="28">G5</text><text class="gateWeek" y="44">W18</text></g>
+    <g transform="translate(1286,712)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#ed5a93"/><text class="gate" y="28">G6</text><text class="gateWeek" y="44">W21</text></g>
+    <g transform="translate(1425,712)"><path d="M0,-10 L10,0 L0,10 L-10,0 Z" fill="#36aeea"/><text class="gate" y="28">G7</text><text class="gateWeek" y="44">W24</text></g>
+  </g>
+
+  <rect x="34" y="770" width="1432" height="114" rx="20" fill="#fff" stroke="#c9d8e7"/>
+  <g class="ui">
+    <g transform="translate(60,790)"><rect width="240" height="72" rx="13" fill="#e8f8f6" stroke="#2ec5b6"/><text class="cardTitle" x="14" y="24">Student evidence</text><text class="cardText" x="14" y="44">calculations, samples, raw data,</text><text class="cardText" x="14" y="59">repair result, and explained limits</text></g>
+    <g transform="translate(322,790)"><rect width="240" height="72" rx="13" fill="#eee9fb" stroke="#8b67df"/><text class="cardTitle" x="14" y="24">Lecturer evidence</text><text class="cardText" x="14" y="44">gate decisions, calibration review,</text><text class="cardText" x="14" y="59">safety ownership, and assessment</text></g>
+    <g transform="translate(584,790)"><rect width="240" height="72" rx="13" fill="#eaf2ff" stroke="#4f8ff4"/><text class="cardTitle" x="14" y="24">Built system</text><text class="cardText" x="14" y="44">5 V fixture, logger, nine samples,</text><text class="cardText" x="14" y="59">repair mask, and tested software</text></g>
+    <g transform="translate(846,790)"><rect width="240" height="72" rx="13" fill="#fff1e5" stroke="#ff9b42"/><text class="cardTitle" x="14" y="24">Business evidence</text><text class="cardText" x="14" y="44">actual cost, yield, repair versus</text><text class="cardText" x="14" y="59">replacement, and remaining risk</text></g>
+    <g transform="translate(1108,790)"><rect width="282" height="72" rx="13" fill="#fdeaf2" stroke="#ed5a93"/><text class="cardTitle" x="14" y="24">Final decision</text><text class="cardText" x="14" y="44">stop, repeat, or expand through one</text><text class="cardText" x="14" y="59">specific next experiment</text></g>
+  </g>
+</svg>

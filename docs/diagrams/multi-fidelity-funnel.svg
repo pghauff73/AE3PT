@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+  <title id="title">AE3PT multi-fidelity candidate funnel</title>
+  <desc id="desc">Large candidate populations are screened by graph and reduced models before expensive three-dimensional multiphysics and physical validation.</desc>
+  <defs><style>.t{font:600 18px sans-serif;fill:#173846}.s{font:14px sans-serif;fill:#355966}.band{stroke:#fff;stroke-width:3}</style></defs>
+  <text x="550" y="40" text-anchor="middle" class="t">Promotion follows evidence, uncertainty, novelty, and constraint margin</text>
+  <polygon class="band" points="80,90 1020,90 920,180 180,180" fill="#d8eef0"/>
+  <polygon class="band" points="180,180 920,180 820,270 280,270" fill="#b8dde2"/>
+  <polygon class="band" points="280,270 820,270 735,360 365,360" fill="#8fc8d2"/>
+  <polygon class="band" points="365,360 735,360 665,450 435,450" fill="#5faabd"/>
+  <polygon class="band" points="435,450 665,450 610,540 490,540" fill="#2f7f99"/>
+  <text x="550" y="135" text-anchor="middle" class="t">Level 0 — graph, rules, feasibility — 10⁶ candidates</text>
+  <text x="550" y="225" text-anchor="middle" class="t">Level 1 — distributed electrical / thermal — 10⁵</text>
+  <text x="550" y="315" text-anchor="middle" class="t">Level 2 — 3D electrical + simplified coupling — 10⁴</text>
+  <text x="550" y="405" text-anchor="middle" class="t" fill="#fff">Level 3 — coupled electrothermal / process — 10³</text>
+  <text x="550" y="495" text-anchor="middle" class="t" fill="#fff">Level 4 — EM + CFD + nonlinear life — 10–100</text>
+  <path d="M490 545 C300 585 130 520 180 420" stroke="#a45d00" stroke-width="4" fill="none" stroke-dasharray="8 7"/>
+  <text x="175" y="565" class="s">discrepancy feedback</text>
+  <text x="550" y="625" text-anchor="middle" class="t">Physical demonstrators validate finalists; discrepancies update lower levels</text>
+</svg>

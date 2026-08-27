@@ -1,0 +1,8 @@
+option_id,subsystem,item,quantity,key_specification,acquisition,cost_low_usd,cost_high_usd,gate,notes
+AD-001,Printer access,JG MAKER Artist-D access,1,"Both independent heads operational; manual firmware brushes bed and guards checked",Own borrow or service,0,100,P1-IDEX,"No new-printer purchase assumed"
+AD-002,Non-conductive material,Natural PLA,1 kg,"Compatible with selected conductive PLA and coupon plan",Buy,20,35,P1-IDEX,"Dedicated left-extruder material"
+AD-003,Conductive seed material,Conductive PLA,50-500 g,"Published electrical data and supplier print settings; not decorative copper-coloured filament",Buy,15,100,P1-IDEX,"Experimental seed only; copper is final conductor"
+AD-004,Printer consumables,0.4 mm nozzles,2-4,"Verified fit for installed Artist-D hot ends; abrasion-resistant nozzle when required by filament supplier",Buy,15,35,P1-IDEX,"Keep tool paths separate during conductive trial and record nozzle wear"
+AD-005,Contamination control,Purge brushes collection cups and labels,1 set,"Separate left and right material-control areas",Build or buy,10,25,P1-IDEX,"Prevent conductive material entering insulating route"
+AD-006,Material storage,Sealed dry storage and desiccant,1 set,"Supplier-compatible filament conditioning and storage",Buy,15,30,P1-IDEX,"Record material batch and conditioning"
+AD-007,Qualification coupons,IDEX alignment resistance and plating coupons,1 allowance,"At least three seed geometries and one supervised plating trial",Build and service,15,40,P1-IDEX,"All three coupon gates must pass"

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">AE3PT release assurance stack</title>
+  <desc id="desc">Engineering preview release rests on requirements, verified software, calibrated models, physical demonstrators, security, documentation, and exact-artifact approval.</desc>
+  <defs><style>.t{font:600 18px sans-serif;fill:#173846}.s{font:14px sans-serif;fill:#355966}.layer{stroke:#234e61;stroke-width:2}</style></defs>
+  <text x="600" y="40" text-anchor="middle" class="t">Release is the top of an evidence stack, not a packaging event</text>
+  <rect class="layer" x="120" y="500" width="960" height="70" rx="12" fill="#dceff0"/><text x="600" y="535" text-anchor="middle" class="t">Requirements, mission, hazards, standards, and research provenance</text>
+  <rect class="layer" x="170" y="420" width="860" height="65" rx="12" fill="#c9e5e9"/><text x="600" y="458" text-anchor="middle" class="t">Canonical data, deterministic builds, tests, replay, and invalidation</text>
+  <rect class="layer" x="220" y="345" width="760" height="60" rx="12" fill="#afd7de"/><text x="600" y="382" text-anchor="middle" class="t">Verified physics, coupled convergence, and uncertainty</text>
+  <rect class="layer" x="270" y="275" width="660" height="55" rx="12" fill="#8fc4ce"/><text x="600" y="309" text-anchor="middle" class="t">Coupon calibration and physical demonstrator validation</text>
+  <rect class="layer" x="320" y="210" width="560" height="50" rx="12" fill="#6caabc"/><text x="600" y="241" text-anchor="middle" class="t" fill="#fff">Security, documentation, migration, and rollback</text>
+  <rect class="layer" x="370" y="150" width="460" height="45" rx="12" fill="#3c849b"/><text x="600" y="178" text-anchor="middle" class="t" fill="#fff">Independent audit + exact-artifact approval</text>
+  <rect x="455" y="78" width="290" height="56" rx="15" fill="#fff0c4" stroke="#a45d00" stroke-width="3"/><text x="600" y="112" text-anchor="middle" class="t">Engineering Preview</text>
+  <text x="600" y="603" text-anchor="middle" class="s">Certification remains a separate external process</text>
+</svg>
